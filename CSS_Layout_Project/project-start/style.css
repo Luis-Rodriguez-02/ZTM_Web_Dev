@@ -1,5 +1,6 @@
 body {
     margin: auto 0;
+    font-family: Arial, Helvetica, sans-serif
 }
 .zone {
     /* padding:30px 50px;
@@ -20,12 +21,25 @@ body {
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
 
+.box:hover {
+    -webkit-box-transform: rotate(-7deg);
+    -moz-box-rotate: rotate(-7deg);
+    -o-box-rotate: rotate(-7deg);
+    transform: scale(1.1);
+}
+
 /* NAV */
 .main-nav {
     display: flex;
     list-style: none;
     font-size: 0.7em;
     margin: 0;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -55,6 +69,11 @@ a {
     height: 50vh;
 }
 
+/* cover img */
+.cover {
+    width: 15rem;
+    margin-top: 10vh;
+}
 /* GRID */
 .grid-wrapper {
     display: grid;
@@ -75,6 +94,9 @@ a {
 footer {
     text-align: center;
 }
+
+
+
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
 /***********************************************************************
