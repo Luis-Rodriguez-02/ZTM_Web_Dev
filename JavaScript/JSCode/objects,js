@@ -1,0 +1,8 @@
+var user = {
+  name: "Luis",
+  age: 15,
+  hobby: "programming",
+  isMarried: false
+}
+
+user.favoriteFood = "Chicken";
