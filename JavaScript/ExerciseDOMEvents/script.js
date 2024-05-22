@@ -2,7 +2,7 @@ var button = document.getElementById("enter");
 var input = document.getElementById("userinput");
 var ul = document.querySelector("ul");
 var listItems = document.querySelectorAll("li")
-var listItemButtons = document.querySelectorAll("button")
+var listItemButtons = ul.querySelectorAll("button")
 
 function inputLength() {
 	return input.value.length;
